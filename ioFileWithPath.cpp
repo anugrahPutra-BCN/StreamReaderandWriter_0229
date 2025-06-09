@@ -18,4 +18,16 @@ int main()
 
     cout << ">= Menulis file, \'q\' untuk keluar" << endl;
 
-    
+    // unlimited Loop untuk menulis 
+    while (true)
+    {
+        cout << "- ";
+        // mendapatkan setiap karakter dalam satu baris
+        getline(cin, baris);
+        // Loop akan berhenti anda memasukan karakter q
+        if (baris == "q")
+            break;
+        // menulis dan memasukan nilai dari 'baris' ke dalam file
+        outfile << baris << endl;
+    }
+ 
