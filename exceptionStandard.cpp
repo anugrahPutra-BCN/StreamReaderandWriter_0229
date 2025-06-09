@@ -5,3 +5,4 @@
 // untuk obyek arrayyang akan kita gunakan
 using namespace std;
 
+int main()
